@@ -7,6 +7,7 @@ let hours = 0;
 let searchHistory = [];
 let today = new Date().getDay();
 let daysofweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let currentWD = daysofweek[today];
 
 document.cookie = 'iubds';
 
